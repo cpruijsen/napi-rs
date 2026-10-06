@@ -7,6 +7,34 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [3.7.0](https://github.com/napi-rs/napi-rs/compare/napi-derive-v3.6.12...napi-derive-v3.7.0) - 2026-10-06
+
+### Added
+
+- unforgeable `#[napi]` class identity via Node object type tags ([#3405](https://github.com/napi-rs/napi-rs/pull/3405))
+
+### Fixed
+
+- *(deps)* update rust crate syn to v3 ([#3407](https://github.com/napi-rs/napi-rs/pull/3407))
+- *(napi)* guard AsyncTask completion against env teardown ([#3536](https://github.com/napi-rs/napi-rs/pull/3536))
+- *(deps)* update rust crate convert_case to 0.12 ([#3469](https://github.com/napi-rs/napi-rs/pull/3469))
+
+### Other
+
+- release ([#3567](https://github.com/napi-rs/napi-rs/pull/3567))
+- release ([#3556](https://github.com/napi-rs/napi-rs/pull/3556))
+- release ([#3544](https://github.com/napi-rs/napi-rs/pull/3544))
+- release ([#3538](https://github.com/napi-rs/napi-rs/pull/3538))
+- release ([#3529](https://github.com/napi-rs/napi-rs/pull/3529))
+- release ([#3525](https://github.com/napi-rs/napi-rs/pull/3525))
+- release ([#3508](https://github.com/napi-rs/napi-rs/pull/3508))
+- release ([#3502](https://github.com/napi-rs/napi-rs/pull/3502))
+- release ([#3470](https://github.com/napi-rs/napi-rs/pull/3470))
+- release ([#3448](https://github.com/napi-rs/napi-rs/pull/3448))
+- release ([#3433](https://github.com/napi-rs/napi-rs/pull/3433))
+- release ([#3414](https://github.com/napi-rs/napi-rs/pull/3414))
+- release ([#3401](https://github.com/napi-rs/napi-rs/pull/3401))
+
 ## [3.6.12](https://github.com/napi-rs/napi-rs/compare/napi-derive-v3.6.11...napi-derive-v3.6.12) - 2026-10-06
 
 ### Other
